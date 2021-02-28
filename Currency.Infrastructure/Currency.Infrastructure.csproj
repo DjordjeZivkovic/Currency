@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Currency.Application\Currency.Application.csproj" />
+    <ProjectReference Include="..\Currency.Common\Currency.Common.csproj" />
+  </ItemGroup>
+
+</Project>
